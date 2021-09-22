@@ -1,0 +1,66 @@
+/*-------------------------- */
+/*Variables*/
+/*-------------------------- */
+:root {
+  /*Colors and color theme*/
+
+  --color-primary: #fa4a0c;
+  --color-primary-hover: #aa3409;
+
+  --color-secondary: #252b42;
+
+  /*text*/
+
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+
+  --font-base-par-size: calc((24 / 16) * 1rem);
+
+  --Hero-banner-weight: 700;
+  --Hero-banner-size: calc((58 / 16) * 1rem);
+  --Hero-banner-line-height: 80px;
+
+  --Hero-logo-width: calc((206 / 16) * 1rem);
+  --Hero-logo-height: calc((101.76 / 16) * 1rem);
+
+  --link-weight: 600;
+  --link-size: calc((16 / 16) * 1rem);
+
+  --H2-weight: 700;
+  --H2-size: calc((40 / 16) * 1rem);
+  --H2-line-height: 57px;
+
+  --H3-weight: 700;
+  --H3-size: calc((24 / 16) * 1rem);
+  --H3-line-height: 36px;
+
+  --H4-weight: 500;
+  --H4-size: calc((24 / 16) * 1rem);
+  --H4-line-height: 38px;
+
+  --how-the-app-work-heading-weigh: 600;
+  --how-the-app-work-heading-size: calc((44 / 16) * 1rem);
+
+  /*spacing*/
+  --max-screen-width: 1440px;
+
+  --seperater-line-border-setting: 3px solid #e4e4e4;
+  --seperater-line-width: 884px;
+}
+//SCSS Example
+
+//Colors
+//$default-color: gray;
+// $font-color: darken($default-color, 60%);
+// $light-color: lighten($default-color, 20%);
+// $dark-color: darken($default-color, 20%);
+
+//Text Stacks
+// $helvetica-stack:  'Helvetica', sans-serif;
+// $futura-stack: 'Futura', sans-serif; //not imported yet
+// $georgia-stack: 'Georgia', sans-serif;
+
+//Font-sizes
+// $p-font-size: 16px;
+// $aTag-font-size: 13px;
+// $body-font-size: 17px;

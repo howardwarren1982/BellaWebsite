@@ -1,0 +1,254 @@
+<!-- SEO options and other
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="John Doe">
+      <meta name="description" content="Page description">
+      <meta property="og:title" content="Unique page title - My Site">
+      <meta property="og:description" content="Page description">
+      <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
+      <meta property="og:image:alt" content="Image description">
+      <meta property="og:locale" content="en_GB">
+      <meta property="og:type" content="website">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="og:url" content="https://www.mywebsite.com/page">
+      <link rel="canonical" href="https://www.mywebsite.com/page">
+
+      <link rel="icon" href="/favicon.ico">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+      <link rel="manifest" href="/my.webmanifest">
+      <meta name="theme-color" content="#FF00FF"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <title>New ProJect</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <div class="nav-left">
+            <img
+              src="./resources/img/BellaOlonjeLogo.png"
+              alt="site logo"
+              width="206"
+              height="101.76"
+            />
+          </div>
+          <div class="nav-right">
+            <ul>
+              <li><a href=""></a>Home</li>
+              <li><a href=""></a>Product</li>
+              <li><a href=""></a>Faq</li>
+              <li><a href=""></a>Contact</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="section-hero">
+      <div class="center">
+        <h3>Food app</h3>
+        <h1 class="hero-banner">
+          Why stay hungry when you can order from Bella Onojie
+        </h1>
+        <h4>Download the bella onoje’s food app now on</h4>
+        <button class="filled">Playstore</button>
+        <button class="clear">App store</button>
+      </div>
+    </section>
+    <section class="secton-two-cells">
+      <div class="center">
+        <picture>
+          <source
+            type="image/png"
+            srcset="
+              ./resources/img/leftCell.png 1x,
+              ./resources/img/leftCell.png 2x
+            "
+          />
+          <img
+            alt="app shown on cell"
+            src="./resources/img/leftCell.png"
+            loading="lazy"
+            width="299"
+            height="531"
+          />
+        </picture>
+
+        <picture>
+          <source
+            type="image/png"
+            srcset="
+              ./resources/img/heroRight.png 1x,
+              ./resources/img/heroRight.png 2x
+            "
+          />
+          <img
+            alt="app shown on cell"
+            src="./resources/img/heroRight.png"
+            loading="lazy"
+            width="170"
+            height="320"
+          />
+        </picture>
+        <div class="seperater-line-border">-----put border here-------</div>
+        <div class="how-app-work-heading">How the app works</div>
+      </div>
+    </section>
+    <section class="section-create-account">
+      <div class="row">
+        <div class="flex center flex-responsive reverse">
+          <div class="img-side">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="
+                  ./resources/img/createCell.png,
+                  ./resources/img/createCell.png 2x
+                "
+              />
+              <source
+                type="image/png"
+                srcset="
+                  ./resources/img/createCell.png 1x,
+                  ./resources/img/createCell.png 2x
+                "
+              />
+              <img
+                alt="app create account picture"
+                src="./resources/img/createCell.png"
+                loading="lazy"
+                width="500"
+                height="700"
+              />
+            </picture>
+          </div>
+          <div class="text-side">
+            <h3>Create an account</h3>
+            <h2>Create/login to an existing account to get started</h2>
+            <p>An account is created with your email and a desired password</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-explore">
+      <div class="row">
+        <div class="flex-reverse center flex-responsive reverse">
+          <div class="img-side">
+            <picture>
+              <source
+                type="image/png"
+                srcset="
+                  ./resources/img/exploreCell.png 1x,
+                  ./resources/img/exploreCell.png 2x
+                "
+              />
+              <img
+                alt="app create account picture"
+                src="./resources/img/exploreCell.png"
+                loading="lazy"
+                width="500"
+                height="700"
+              />
+            </picture>
+          </div>
+          <div class="text-side">
+            <h3>Create an account</h3>
+            <h2>Create/login to an existing account to get started</h2>
+            <p>An account is created with your email and a desired password</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-checkout">
+      <div class="row">
+        <div class="flex center flex-responsive reverse">
+          <div class="img-side">
+            <picture>
+              <source
+                type="image/png"
+                srcset="
+                  ./resources/img/checkoutCell.png 1x,
+                  ./resources/img/checkoutCell.png 2x
+                "
+              />
+              <img
+                alt="app create account picture"
+                src="./resources/img/checkoutCell.png"
+                loading="lazy"
+                width="500"
+                height="700"
+              />
+            </picture>
+          </div>
+          <div class="text-side">
+            <h3>Create an account</h3>
+            <h2>Create/login to an existing account to get started</h2>
+            <p>An account is created with your email and a desired password</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-download center">
+      <h2>Download the app now.</h2>
+      <h4>
+        Available on your favorite store. Start your premium experience now
+      </h4>
+      <button>Playstore</button>
+      <button>App store</button>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="flex center flex-responsive">
+          <div class="logo-footer">
+            <img
+              src="./resources/img/BellaOlonjeLogo.png"
+              alt="site logo"
+              width="206"
+              height="101.76"
+            />
+          </div>
+          <div class="socials">
+            <ion-icon name="logo-twitter"></ion-icon
+            ><ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+          <div class="copywright">
+            <small>&copy; Copywright 2020 Bella Onojie.com </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
+
+<!-- notes resposive pics
+
+<style>
+  img {
+  max-width: 100%;
+  }
+  </style>
+  
+  <picture>
+  <source type="image/webp" srcset="https://my-image.com/my-image-100.webp 1x, https://my-image.com/my-image-200.webp 2x">
+  <source type="image/png" srcset="https://my-image.com/my-image-100.png 1x, https://my-image.com/my-image-200.png 2x">
+  <img alt="my image" src="https://my-image.com/my-image-200.png" loading="lazy" width="100" height="100">
+  </picture> -->
