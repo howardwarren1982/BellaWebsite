@@ -1,0 +1,79 @@
+@use "reusable" as *;
+@use "variables" as *;
+@use "buttons" as *;
+@use "basicSetup" as *;
+
+$nav-links-margin-left: 114px;
+$nav-logo-margin: 26px 0;
+$nav-link-padding: 64px 0;
+
+$nav-link-color: var(--color-secondary);
+$nav-link-color-hover: var(--color-primary);
+
+nav {
+  ul {
+    list-style: none;
+    li {
+      margin-left: $nav-links-margin-left;
+      padding: $nav-link-padding;
+
+      a {
+        text-decoration: none;
+        color: $nav-link-color;
+        font-size: var(--link-size);
+        font-weight: var(--link-weight);
+        &:hover {
+          color: $nav-link-color-hover;
+        }
+      }
+    }
+  }
+
+  img {
+    margin: $nav-logo-margin;
+  }
+
+  .responsive-nav {
+    display: none;
+
+    ion-icon {
+      font-size: em(40);
+    }
+
+    li {
+      padding-bottom: 5px;
+
+      margin-left: $nav-links-margin-left;
+      padding: 5px 0;
+
+      a {
+        text-decoration: none;
+        color: $nav-link-color;
+        font-size: var(--link-size);
+        font-weight: var(--link-weight);
+        &:hover {
+          color: $nav-link-color-hover;
+        }
+      }
+    }
+
+    .list-responsive {
+      overflow: hidden;
+      height: 30px;
+
+      &:hover,
+      &:focus {
+        height: 200px;
+      }
+    }
+  }
+  @include for-any-size(982px) {
+    .desktop-nav {
+      display: none;
+    }
+
+    .responsive-nav {
+      display: inherit;
+    }
+  }
+}

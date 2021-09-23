@@ -1,0 +1,33 @@
+@use "reusable" as *;
+@use "variables" as *;
+@use "buttons" as *;
+@use "basicSetup" as *;
+
+$hero-section-pading: em(73) 0 em(146) 0;
+$main-banner-margin: 17px auto 0 auto;
+$h4-margin: 27px 0 70px 0;
+
+.section-hero {
+  background-image: url("/build/resources/css/img/heroBg.png");
+  background-size: cover;
+  color: white;
+  padding: $hero-section-pading;
+
+  .hero-banner {
+    margin: $main-banner-margin;
+    font-weight: var(--Hero-banner-weight);
+    font-size: var(--Hero-banner-size);
+    line-height: var(--Hero-banner-line-height);
+    font-family: var(--font-secondary);
+    max-width: 30ch;
+  }
+
+  h4 {
+    margin: $h4-margin;
+    color: white;
+  }
+
+  h3 {
+    color: white;
+  }
+}

@@ -52,6 +52,11 @@
   margin: 0 auto 0 auto;
 }
 
+.row-nav {
+  max-width: var(--max-screen-width-nav);
+  margin: 0 auto 0 auto;
+}
+
 .center {
   text-align: center;
   align-items: center;
