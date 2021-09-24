@@ -43,6 +43,7 @@
   --how-the-app-work-heading-size: calc((44 / 16) * 1rem);
 
   /*spacing*/
+  --screen-width-hero: clamp(1vw, 100vw, 2500px);
   --max-screen-width: 1740px;
   --max-screen-width-nav: 1640px;
 

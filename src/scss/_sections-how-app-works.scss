@@ -1,0 +1,13 @@
+@use "reusable" as *;
+@use "variables" as *;
+@use "buttons" as *;
+@use "basicSetup" as *;
+
+.section-create-account,
+.section-explore,
+.section-checkout {
+  .text-side {
+    text-align: left;
+    max-width: 561px;
+  }
+}

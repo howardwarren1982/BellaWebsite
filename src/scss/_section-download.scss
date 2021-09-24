@@ -1,0 +1,21 @@
+@use "reusable" as *;
+@use "variables" as *;
+@use "buttons" as *;
+@use "basicSetup" as *;
+
+$download-section-padding: 135px 0;
+$h4-margin: 20px 0 60px 0;
+
+.section-download {
+  background-image: url("/build/resources/css/img/footerBg.png");
+  background-size: cover;
+  padding: $download-section-padding;
+  h2,
+  h4 {
+    color: white;
+  }
+
+  h4 {
+    margin: $h4-margin;
+  }
+}
