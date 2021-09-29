@@ -1,0 +1,35 @@
+@use "reusable" as *;
+@use "variables" as *;
+@use "buttons" as *;
+@use "basicSetup" as *;
+
+.section-two-cells {
+  height: 300px;
+  .leftPicture,
+  .rightPicture {
+    position: absolute;
+  }
+
+  .leftPicture {
+    top: 637px;
+    right: 850px;
+  }
+  .rightPicture {
+    top: 796px;
+    right: 790px;
+  }
+
+  .leftimg {
+    height: 547px;
+    width: 349px;
+  }
+
+  .seperater-line-border {
+    display: block;
+    padding-top: 230px;
+    width: 484px;
+    height: 1px;
+    border-bottom: 3px solid #e4e4e4;
+    margin: 0 auto 0 auto;
+  }
+}
